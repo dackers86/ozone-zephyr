@@ -1,6 +1,6 @@
-defmodule KVTest do
+defmodule ZephyrTest do
   use ExUnit.Case
-  doctest KV
+  doctest Zephyr
 
   test "the truth" do
     assert 1 + 1 == 2

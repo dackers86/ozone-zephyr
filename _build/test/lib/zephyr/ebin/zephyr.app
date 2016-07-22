@@ -2,5 +2,5 @@
              [{registered,[]},
               {description,"zephyr"},
               {vsn,"0.1.0"},
-              {modules,['Elixir.KV']},
+              {modules,['Elixir.Zephyr']},
               {applications,[kernel,stdlib,elixir,logger]}]}.

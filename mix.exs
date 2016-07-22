@@ -1,4 +1,4 @@
-defmodule KV.Mixfile do
+defmodule Zephyr.Mixfile do
   use Mix.Project
 
   def project do
