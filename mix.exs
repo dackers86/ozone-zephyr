@@ -27,6 +27,9 @@ defmodule Zephyr.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [{:phoenix, "~> 1.0.4"},
+     {:postgrex, ">= 0.0.0"},
+     {:cowboy, "~> 1.0"},
+     {:poison, "~> 1.5"}]
   end
 end

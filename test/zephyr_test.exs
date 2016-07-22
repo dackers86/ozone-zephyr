@@ -2,7 +2,10 @@ defmodule ZephyrTest do
   use ExUnit.Case
   doctest Zephyr
 
-  test "the truth" do
-    assert 1 + 1 == 2
+  use Plug.Test
+
+  test "it is listening on the car query endpoint" do
+    response = conn(:get, "/edmunds-api")
+    assert response.status == 200
   end
 end
